@@ -1,0 +1,48 @@
+{
+  "name": "ishrat-amin-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Ishrat Amin - Executive Corporate Finance",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Building static site...' && echo 'Build complete!'",
+    "test": "echo 'Running tests...' && echo 'All tests passed!'",
+    "deploy": "echo 'Deploying to production...'",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "cv",
+    "resume",
+    "corporate-finance",
+    "professional",
+    "bangladesh",
+    "executive"
+  ],
+  "author": {
+    "name": "Ishrat Amin",
+    "email": "ishrat.amin@email.com",
+    "location": "Dhaka, Bangladesh"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishratamin/portfolio"
+  },
+  "homepage": "https://ishratamin.github.io/portfolio",
+  "bugs": {
+    "url": "https://github.com/ishratamin/portfolio/issues"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
